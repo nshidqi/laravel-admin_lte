@@ -20,6 +20,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 // Buat ngetes layout standar admin-lte pertama kali, kalo udah cocok komen aja route ini
-Route::get('admin', function () {
+/*Route::get('admin', function () {
     return view('layouts.admin_lte_master');
-});
+});*/
